@@ -5,7 +5,7 @@ import com.yyli.chapter05.clickSource;
 import org.apache.flink.api.common.eventtime.*;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
-//自定义周期性生成水位线
+//自定义事件生成水位线
 public class WaterMarkOnEvent {
     public static void main(String[] args) throws Exception{
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
